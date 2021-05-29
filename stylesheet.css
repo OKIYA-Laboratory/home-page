@@ -1,0 +1,107 @@
+body {
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  height: 100px;
+  background-color: #efefef;
+  padding: 1px;
+}
+
+header li {
+  float: left;
+  padding: 0px 35px;
+  font-size: 50px;
+  font-family: arial black;
+}
+
+header li img {
+  width: 55px;
+}
+
+.header-top {
+  float: left;
+}
+
+.header-top img{
+  width: 80px;
+  padding: 8px 18px;
+}
+
+header img:hover{
+  opacity: 0.5;
+}
+
+header a:hover {
+  color: rgb(252, 94, 94);
+}
+
+header a {
+  color: black;
+}
+
+.main {
+  height: 1500px;
+}
+
+.top-wrapper {
+  background-image: url(image/backimage.jpg);
+  background-size: cover;
+  text-align: center;
+  height: 600px;
+  padding: 1px;
+}
+
+.top-wrapper h1 {
+  font-size: 150px;
+  color: white;
+  letter-spacing: 10px;
+  opacity: 0.9;
+  text-shadow    :
+  4px  4px 2px #003366,
+  -4px  4px 2px #003366,
+  4px -4px 2px #003366,
+  -4px -4px 2px #003366,
+  4px  0px 2px #003366,
+  0px  4px 2px #003366,
+  -4px  0px 2px #003366,
+  0px -4px 2px #003366;
+}
+
+.youtube {
+  background-color: #ff0000;
+  text-shadow    :
+  1px  1px 0.5px #003366,
+  -1px  1px 0.5px #003366,
+  1px -1px 0.5px #003366,
+  -1px -1px 0.5px #003366,
+  1px  0px 0.5px #003366,
+  0px  1px 0.5px #003366,
+  -1px  0px 0.5px #003366,
+  0px -1px 0.5px #003366;
+}
+
+.niconico {
+  background-color: #252525;
+}
+
+.top-wrapper a {
+  padding: 0px 10px;
+  font-size: 50px;
+  color:white;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 0px 40px;
+  opacity: 0.8;
+  border: 2px white solid;
+  filter: brightness(100%);
+}
+
+.top-wrapper a:hover {
+  opacity: 1;
+  filter: brightness(110%);
+}
