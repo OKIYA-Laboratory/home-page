@@ -62,7 +62,7 @@ header a {
   letter-spacing: 10px;
   opacity: 0.9;
   text-shadow    :
-  4px  4px 2px #003366,
+  8px  8px 2px #0080ff,
   -4px  4px 2px #003366,
   4px -4px 2px #003366,
   -4px -4px 2px #003366,
@@ -99,11 +99,24 @@ header a {
   opacity: 0.8;
   border: 2px white solid;
   filter: brightness(100%);
+  box-shadow: 0 8px #696969;
 }
 
 .top-wrapper a:hover {
   opacity: 1;
   filter: brightness(110%);
+}
+
+.youtube:active {
+  box-shadow: none;
+  position: relative;
+  top: 8px;
+}
+
+.niconico:active {
+  box-shadow: none;
+  position: relative;
+  top: 8px;
 }
 
 .content-list {
