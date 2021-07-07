@@ -1,7 +1,9 @@
-body {
+* {
   margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-
+  
 li {
   list-style: none;
 }
@@ -10,7 +12,6 @@ header {
   width: 100%;
   height: 100px;
   background-color: #efefef;
-  padding: 1px;
   opacity: 0.9;
   position: fixed;
   top: 0px;
@@ -19,7 +20,7 @@ header {
 
 header li {
   float: left;
-  padding: 0px 35px;
+  padding: 10px 35px;
   font-size: 50px;
   font-family: arial black;
 }
@@ -32,13 +33,14 @@ header li img {
   float: left;
 }
 
-.header-top img{
-  width: 80px;
+.header-top img {
+  width: 115px;
   padding: 8px 18px;
+  transition: opacity 0.5s;
 }
 
-header img:hover{
-  opacity: 0.5;
+header img:hover {
+  opacity: 0.6;
 }
 
 header a:hover {
@@ -54,11 +56,11 @@ main {
 }
 
 .top-wrapper {
+  padding: 1px;
   background-image: url(image/backimage.jpg);
   background-size: cover;
   text-align: center;
   height: 700px;
-  padding: 1px;
 }
 
 .top-wrapper h1 {
@@ -161,5 +163,28 @@ main {
 
 footer {
   background-color: #003366;
-  height: 300px;
+  height: 100px;
+}
+
+footer h1 {
+  color: white;
+  margin: 22px 5px;
+}
+
+footer img {
+  border-radius: 8px;
+  width: 23%;
+  margin: 24px 20px;
+}
+
+footer img:hover {
+  opacity: 0.6;
+}
+
+footer li {
+  float: left;
+}
+
+.learn {
+  margin-left: 550px;
 }
