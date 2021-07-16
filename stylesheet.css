@@ -51,6 +51,20 @@ header a {
   color: black;
 }
 
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 70px;
+  padding: 0 30px;
+  font-weight: 800;
+  text-shadow:
+  2px 0 0 black,
+  0 2px 0 black,
+  -2px 0 0 black,
+  0 -2px 0 black;
+  display: none;
+}
+
 main {
   height: 2000px;
 }
@@ -163,7 +177,7 @@ main {
 
 footer {
   background-color: #003366;
-  height: 100px;
+  height: 105px;
 }
 
 footer h1 {
