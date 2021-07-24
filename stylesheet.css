@@ -58,11 +58,19 @@ header a {
   padding: 0 30px;
   font-weight: 800;
   text-shadow:
-  2px 0 0 black,
-  0 2px 0 black,
-  -2px 0 0 black,
-  0 -2px 0 black;
+  2px 2px 1px #003366,
+  -2px 2px 1px #003366,
+  2px -2px 1px #003366,
+  -2px -2px 1px #003366,
+  2px  0px 1px #003366,
+  0px 2px 1px #003366,
+  -2px 0px 1px #003366,
+  2px -2px 1px #003366;
   display: none;
+}
+
+.menu-icon:hover {
+  opacity: 0.6;
 }
 
 main {
@@ -86,26 +94,26 @@ main {
   letter-spacing: 10px;
   opacity: 0.9;
   text-shadow:
-  8px  8px 2px #0080ff,
-  -4px  4px 2px #003366,
+  8px 8px 2px #0080ff,
+  -4px 4px 2px #003366,
   4px -4px 2px #003366,
   -4px -4px 2px #003366,
-  4px  0px 2px #003366,
-  0px  4px 2px #003366,
-  -4px  0px 2px #003366,
+  4px 0px 2px #003366,
+  0px 4px 2px #003366,
+  -4px 0px 2px #003366,
   0px -4px 2px #003366;
 }
 
 .youtube {
   background-color: #ff0000;
   text-shadow:
-  1px  1px 0.5px #003366,
-  -1px  1px 0.5px #003366,
+  1px 1px 0.5px #003366,
+  -1px 1px 0.5px #003366,
   1px -1px 0.5px #003366,
   -1px -1px 0.5px #003366,
-  1px  0px 0.5px #003366,
-  0px  1px 0.5px #003366,
-  -1px  0px 0.5px #003366,
+  1px 0px 0.5px #003366,
+  0px 1px 0.5px #003366,
+  -1px 0px 0.5px #003366,
   0px -1px 0.5px #003366;
 }
 
@@ -114,12 +122,12 @@ main {
 }
 
 .top-wrapper a {
-  padding: 0px 22px;
+  padding: 0 22px;
   font-size: 50px;
   color:white;
   text-decoration: none;
   border-radius: 10px;
-  margin: 0px 60px;
+  margin: 0 60px;
   opacity: 0.8;
   border: 2px white solid;
   filter: brightness(100%);
