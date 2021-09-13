@@ -13,25 +13,26 @@ header {
   height: 100px;
   background-color: #efefef;
   opacity: 0.9;
+  display: flex;
   position: fixed;
   top: 0px;
   z-index: 10;
 }
 
-header li {
-  float: left;
-  padding: 10px 35px;
+.header-left {
+  display: flex;
+  margin: 10px 0;
   font-size: 50px;
   font-family: arial black;
 }
 
-.header-btn {
-  float: left;
+.header-left li {
+  margin: 0 30px;
 }
 
 .header-btn img {
-  width: 115px;
-  padding: 8px 18px;
+  width: 80px;
+  margin: 10px 18px;
   transition: opacity 0.5s;
 }
 
@@ -48,10 +49,9 @@ header a:hover {
 }
 
 .menu-icon {
+  margin:0 30px 0 auto;
   color: white;
-  float: right;
   font-size: 70px;
-  margin: 0 50px;
   font-weight: 800;
   text-shadow:
   2px 2px 1px #003366,
@@ -77,6 +77,7 @@ main {
   padding: 1px;
   background-image: url(image/backimage.jpg);
   background-size: cover;
+  background-position: center;
   text-align: center;
   height: 700px;
 }
@@ -142,47 +143,57 @@ main {
 }
 
 .content-list {
-  float: left;
   font-size: 30px;
-  margin: 100px 90px;
+  display: flex;
+  flex: auto;
   position: relative;
 }
 
 .content h1 {
   font-size: 50px;
-  margin-top: 120px;
-  margin-left: 110px;
+  margin: 120px 110px 100px;
+  width: 410px;
 }
 
-.content img {
+.content img  {
   width: 300px;
+  margin: 0 auto;
 }
 
 .lego p {
   position: absolute;
-  left: 120px;
+  left: 0px;
+  top: 230px;
 }
 
 .electronic p {
   position: absolute;
-  left: 30px;
+  left: 0px;
+  top: 230px;
 }
 
 .program p {
   position: absolute;
-  left: 90px;
+  left: 0px;
+  top: 230px;
 }
 
 footer {
   background-color: #003366;
   height: 105px;
+  position: relative;
 }
 
-.learn img{
-  border-radius: 8px;
+.learn img {
   width: 400px;
-  margin-top: 20px;
-  margin-left: 580px;
+  margin: auto;
+  border-radius: 8px;
+  transition: opacity 0.5s;
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
 }
 
 .learn img:hover {
