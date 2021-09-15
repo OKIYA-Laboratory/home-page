@@ -54,14 +54,14 @@ header a:hover {
   font-size: 70px;
   font-weight: 800;
   text-shadow:
-  2px 2px 1px #003366,
-  -2px 2px 1px #003366,
-  2px -2px 1px #003366,
-  -2px -2px 1px #003366,
-  2px  0px 1px #003366,
-  0px 2px 1px #003366,
-  -2px 0px 1px #003366,
-  2px -2px 1px #003366;
+  2px 2px 1px #000000,
+  -2px 2px 1px #000000,
+  2px -2px 1px #000000,
+  -2px -2px 1px #000000,
+  2px  0px 1px #000000,
+  0px 2px 1px #000000,
+  -2px 0px 1px #000000,
+  2px -2px 1px #000000;
   display: none;
 }
 
@@ -104,14 +104,14 @@ main {
 .youtube {
   background-color: #ff0000;
   text-shadow:
-  1px 1px 0.5px #003366,
-  -1px 1px 0.5px #003366,
-  1px -1px 0.5px #003366,
-  -1px -1px 0.5px #003366,
-  1px 0px 0.5px #003366,
-  0px 1px 0.5px #003366,
-  -1px 0px 0.5px #003366,
-  0px -1px 0.5px #003366;
+  1px 1px 0.5px #000000,
+  -1px 1px 0.5px #000000,
+  1px -1px 0.5px #000000,
+  -1px -1px 0.5px #000000,
+  1px 0px 0.5px #000000,
+  0px 1px 0.5px #000000,
+  -1px 0px 0.5px #000000,
+  0px -1px 0.5px #000000;
 }
 
 .niconico {
@@ -142,6 +142,12 @@ main {
   top: 8px;
 }
 
+.content {
+  width: 1400px;
+  margin: 0 auto;
+  margin-left: 100px;
+}
+
 .content-list {
   font-size: 30px;
   display: flex;
@@ -151,31 +157,30 @@ main {
 
 .content h1 {
   font-size: 50px;
-  margin: 120px 110px 100px;
+  margin: 100px 0 60px;
   width: 410px;
 }
 
 .content img  {
-  width: 300px;
-  margin: 0 auto;
+  width: 340px;
 }
 
 .lego p {
   position: absolute;
-  left: 0px;
-  top: 230px;
+  left: 125px;
+  top: 265px;
 }
 
 .electronic p {
   position: absolute;
-  left: 0px;
-  top: 230px;
+  left: 50px;
+  top: 265px;
 }
 
 .program p {
   position: absolute;
-  left: 0px;
-  top: 230px;
+  left: 115px;
+  top: 265px;
 }
 
 footer {
@@ -186,9 +191,9 @@ footer {
 
 .learn img {
   width: 400px;
-  margin: auto;
   border-radius: 8px;
   transition: opacity 0.5s;
+  margin: auto;
   position:absolute;
   top:0;
   bottom:0;
