@@ -1,6 +1,6 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -71,15 +71,16 @@ header a:hover {
 
 main {
   height: auto;
+  margin-bottom: 250px;
 }
 
 .top {
-  padding: 1px;
+  padding: 1px 0 120px;
   background-image: url(image/backimage.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
-  height: 700px;
+  height: auto;
 }
 
 .top h1 {
@@ -135,11 +136,6 @@ main {
   filter: brightness(110%);
 }
 
-.top:active {
-  position: relative;
-  top: 8px;
-}
-
 .content {
   width: 1000px;
   margin: 0 auto;
@@ -178,12 +174,6 @@ main {
   position: absolute;
   left: 88px;
   top: 235px;
-}
-
-.main-bottom {
-  padding: 100px;
-  display: block;
-  margin: 0 auto;
 }
 
 footer {
