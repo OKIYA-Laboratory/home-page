@@ -70,7 +70,7 @@ header a:hover {
 }
 
 main {
-  height: 2000px;
+  height: auto;
 }
 
 .top {
@@ -86,7 +86,7 @@ main {
   margin-top: 200px;
   margin-bottom: 80px;
   padding: 1px;
-  font-size: 150px;
+  font-size: 152px;
   color: white;
   letter-spacing: 10px;
   opacity: 0.9;
@@ -128,7 +128,6 @@ main {
   opacity: 0.8;
   border: 2px white solid;
   filter: brightness(100%);
-  box-shadow: 0 8px #b4b4b4;
 }
 
 .top a:hover {
@@ -137,15 +136,13 @@ main {
 }
 
 .top:active {
-  box-shadow: none;
   position: relative;
   top: 8px;
 }
 
 .content {
-  width: 1400px;
+  width: 1000px;
   margin: 0 auto;
-  margin-left: 100px;
 }
 
 .content-list {
@@ -162,25 +159,31 @@ main {
 }
 
 .content img  {
-  width: 340px;
+  width: 300px;
 }
 
 .lego p {
   position: absolute;
-  left: 125px;
-  top: 265px;
+  left: 115px;
+  top: 235px;
 }
 
 .electronic p {
   position: absolute;
-  left: 50px;
-  top: 265px;
+  left: 30px;
+  top: 235px;
 }
 
 .program p {
   position: absolute;
-  left: 115px;
-  top: 265px;
+  left: 88px;
+  top: 235px;
+}
+
+.main-bottom {
+  padding: 100px;
+  display: block;
+  margin: 0 auto;
 }
 
 footer {
